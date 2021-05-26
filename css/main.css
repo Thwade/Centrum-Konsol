@@ -39,10 +39,25 @@ body {
 }
 
 .header {
-    background-image: url('/images/index-bg.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.header-index {
+    background-image: url('/images/index/bg.jpeg');
+}
+
+.header-nintendo {
+    background-image: url('/images/nintendo/bg.jpeg');
+}
+
+.header-playstation {
+    background-image: url('/images/playstation/bg.jpeg');
+}
+
+.header-xbox {
+    background-image: url('/images/xbox/bg.jpeg');
 }
 
 .overlay {
@@ -64,11 +79,26 @@ body {
 
 .description h1 {
     font-weight: bold;
-    background: -webkit-linear-gradient(0deg, #833ab4, #fd1d1d, #fcb045);
     background-clip: text;
     font-size: 3.3rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.header-h1-index {
+    background: -webkit-linear-gradient(0deg, #833ab4, #fd1d1d, #fcb045);
+}
+
+.header-h1-nintendo {
+    background: #d40606;
+}
+
+.header-h1-playstation {
+    background: #2d3087;
+}
+
+.header-h1-xbox {
+    background: #007d11;
 }
 
 .description p {

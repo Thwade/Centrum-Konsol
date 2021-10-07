@@ -45,19 +45,19 @@ body {
 }
 
 .header-index {
-    background-image: url('/images/index/bg.jpeg');
+    background-image: url('../images/index/bg.jpeg');
 }
 
 .header-nintendo {
-    background-image: url('/images/nintendo/bg.jpeg');
+    background-image: url('../images/nintendo/bg.jpeg');
 }
 
 .header-playstation {
-    background-image: url('/images/playstation/bg.jpeg');
+    background-image: url('../images/playstation/bg.jpeg');
 }
 
 .header-xbox {
-    background-image: url('/images/xbox/bg.jpeg');
+    background-image: url('../images/xbox/bg.jpeg');
 }
 
 .overlay {
